@@ -20,9 +20,9 @@ const Home: React.FC = () => {
       <Head>
         <title>Tucker Ai</title>
       </Head>
-      <main className="container mx-auto mt-[80px]">
+      <main className="container mx-auto md:mt-[80px] mt-[200px]">
       <ParticleComponent />
-        <section className="text-center h-[300px] flex flex-row sm:flex-col justify-center">
+        <section className="text-center gap-2 h-[300px] flex md:flex-row flex-col md:h-auto justify-center">
           <div className='flex flex-col justify-center w-full h-full'>
           <h1 className="mb-4 text-4xl font-extrabold text-gray-800">
             Welcome to Tucker Ai
@@ -35,7 +35,7 @@ const Home: React.FC = () => {
             Transforming businesses with cutting-edge machine learning and artificial intelligence solutions. 
           </p>
           </div>
-          <div className='flex flex-col items-center justify-center w-9/12 gap-2'>
+          <div className='flex flex-col items-center justify-center w-full sm:w-9/12'>
             <div><ParticleSliderComponent logoSrc='/ds.png'/></div>
           </div>
         </section>
