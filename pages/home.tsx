@@ -12,6 +12,7 @@ import { TbSitemap } from "react-icons/tb";
 import { FaAngleDoubleRight } from "react-icons/fa";
 import Link from 'next/link';
 import ParticleComponent from '@/components/ParticleComponent';
+import ParticleSliderComponent from '@/components/ParticleSlider';
 
 const Home: React.FC = () => {
   return (
@@ -21,13 +22,22 @@ const Home: React.FC = () => {
       </Head>
       <main className="container mx-auto mt-[80px]">
       <ParticleComponent />
-        <section className="text-center">
+        <section className="text-center h-[300px] flex flex-row justify-center">
+          <div className='flex flex-col justify-center w-full h-full'>
           <h1 className="mb-4 text-4xl font-extrabold text-gray-800">
             Welcome to Tucker Ai
           </h1>
-          <p className="text-gray-600">
-            Transforming businesses with cutting-edge machine learning and artificial intelligence solutions.
+          <p className="text-justify text-gray-600">
+            <br></br>
+            Tucker AI is a cutting-edge artificial intelligence company dedicated to pushing the boundaries of what is possible in the field of machine learning. Our team of experts is passionate about creating innovative solutions that harness the power of AI to solve real-world problems.
+            <br></br>
+            <br></br>
+            Transforming businesses with cutting-edge machine learning and artificial intelligence solutions. 
           </p>
+          </div>
+          <div className='flex flex-col items-center justify-center w-9/12 gap-2'>
+            <div><ParticleSliderComponent logoSrc='/ds.png'/></div>
+          </div>
         </section>
 
         <section className="mt-12">
@@ -41,11 +51,10 @@ const Home: React.FC = () => {
                   className="object-cover w-full h-48 mb-4 rounded-md"
                 />
                 <h2 className="mb-2 text-xl font-semibold text-gray-800">
-                  AI/ML Service #{index + 1}
+                  Coming Soon #{index + 1} 
                 </h2>
                 <p className="text-gray-600">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua.
+                  Work in Progress.
                 </p>
               </div>
             ))}
@@ -124,14 +133,11 @@ const Home: React.FC = () => {
                   >
 
                   </svg>
-                  <h4 className="text-xl font-bold text-black">
-                    Great for your awesome project
+                  <h4 className="text-xl font-bold text-center text-black">
+                    Fantastic for embarking on your Tucker AI journey!
                   </h4>
-                  <p className="mt-2 font-light text-black text-md">
-                    Putting together a page has never been easier than matching
-                    together pre-made components. From landing pages
-                    presentation to login areas, you can easily customise and
-                    built your pages.
+                  <p className="mt-2 font-light text-justify text-black text-md">
+                  Crafting a compelling online presence has never been more seamless, thanks to our collection of pre-designed components. Whether you're envisioning captivating landing pages, engaging presentations, or user-friendly login areas, Tucker AI empowers you to effortlessly customize and construct your digital spaces.
                   </p>
                 </blockquote>
               </div>
@@ -146,11 +152,10 @@ const Home: React.FC = () => {
                         <FaSitemap/>
                       </div>
                       <h6 className="mb-1 text-xl font-semibold">
-                        CSS Components
+                      AI/ML Components
                       </h6>
                       <p className="mb-4 text-gray-500">
-                        Notus NextJS comes with a huge number of Fully Coded CSS
-                        components.
+                      Tucker AI offers an extensive array of fully coded AI/ML components, empowering your projects with intelligent capabilities.
                       </p>
                     </div>
                   </div>
@@ -160,11 +165,10 @@ const Home: React.FC = () => {
                         <FaDraftingCompass className="fas fa-drafting-compass"/>
                       </div>
                       <h6 className="mb-1 text-xl font-semibold">
-                        JavaScript Components
+                      Custom Solutions
                       </h6>
                       <p className="mb-4 text-gray-500">
-                        We also feature many dynamic components for React,
-                        NextJS, Vue and Angular.
+                      We showcase dynamic components designed for various frameworks, including React, NextJS, Vue, Android Stuio, Python, and Angular ensuring adaptability to your preferred technology stack.
                       </p>
                     </div>
                   </div>
@@ -175,10 +179,9 @@ const Home: React.FC = () => {
                       <div className="inline-flex items-center justify-center w-12 h-12 p-3 mb-5 text-center text-gray-500 bg-white rounded-full shadow-lg">
                         <FaNewspaper className="fas fa-newspaper"/>
                       </div>
-                      <h6 className="mb-1 text-xl font-semibold">Pages</h6>
+                      <h6 className="mb-1 text-xl font-semibold">Tailored Pages</h6>
                       <p className="mb-4 text-gray-500">
-                        This extension also comes with 3 sample pages. They are
-                        fully coded so you can start working instantly.
+                      Our service extends to providing three sample pages, meticulously coded and ready for instant deployment. Jumpstart your project with confidence.
                       </p>
                     </div>
                   </div>
@@ -188,11 +191,10 @@ const Home: React.FC = () => {
                         <FaFileAlt className="fas fa-file-alt"/>
                       </div>
                       <h6 className="mb-1 text-xl font-semibold">
-                        Documentation
+                      Comprehensive Documentation
                       </h6>
                       <p className="mb-4 text-gray-500">
-                        Built by developers for developers. You will love how
-                        easy is to to work with Notus NextJS.
+                      Developed by seasoned professionals for fellow developers, our documentation ensures a smooth and enjoyable experience as you navigate the capabilities of Tucker AI. Get ready to embrace the future of AI/ML effortlessly.
                       </p>
                     </div>
                   </div>
