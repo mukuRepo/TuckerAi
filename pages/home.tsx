@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       </Head>
       <main className="container mx-auto mt-[80px]">
       <ParticleComponent />
-        <section className="text-center h-[300px] flex flex-row md:flex-col justify-center">
+        <section className="text-center h-[300px] flex flex-row sm:flex-col justify-center">
           <div className='flex flex-col justify-center w-full h-full'>
           <h1 className="mb-4 text-4xl font-extrabold text-gray-800">
             Welcome to Tucker Ai
