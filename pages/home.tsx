@@ -24,7 +24,7 @@ const Home: React.FC = () => {
       <ParticleComponent />
         <section className="text-center gap-2 h-[300px] flex md:flex-row flex-col md:h-auto justify-center">
           <div className='flex flex-col justify-center w-full h-full'>
-          <h1 className="mb-4 text-4xl font-extrabold text-gray-800">
+          <h1 className="mb-4 text-3xl font-extrabold text-left text-gray-800 sm:text-4xl">
             Welcome to Tucker Ai
           </h1>
           <p className="text-justify text-gray-600">
@@ -117,7 +117,7 @@ const Home: React.FC = () => {
         </div>
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
-            <div className="w-10/12 px-12 ml-auto mr-auto -mt-32 md:w-6/12 lg:w-4/12 md:px-4">
+            <div className="px-2 px-12 ml-auto mr-auto -mt-32 w-12/12 md:w-6/12 lg:w-4/12 md:px-4">
               <div className="relative flex flex-col w-full min-w-0 mb-6 break-words bg-white rounded-lg shadow-lg">
                 <img
                   alt="..."
@@ -143,7 +143,7 @@ const Home: React.FC = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 md:w-6/12">
+            <div className="w-full px-4 text-center sm:text-justify md:w-6/12">
               <div className="flex flex-wrap">
                 <div className="w-full px-4 md:w-6/12">
                   <div className="relative flex flex-col mt-4">
@@ -204,7 +204,7 @@ const Home: React.FC = () => {
           </div>
         </div>
 
-        <div className="container pb-20 mx-auto overflow-hidden">
+        <div className="container pb-20 mx-auto overflow-hidden text-center sm:text-justify">
           <div className="flex flex-wrap items-center">
             <div className="w-full px-12 mt-48 ml-auto mr-auto md:w-4/12 md:px-4">
               <div className="inline-flex items-center justify-center w-16 h-16 p-3 mb-6 text-center text-gray-500 bg-white rounded-full shadow-lg">
@@ -293,7 +293,7 @@ const Home: React.FC = () => {
 
           <div className="flex flex-wrap items-center pt-32">
             <div className="w-full px-4 mt-32 ml-auto mr-auto md:w-6/12">
-              <div className="relative flex flex-wrap justify-center">
+              <div className="relative flex flex-row items-center justify-center md:flex-wrap">
                 <div className="w-full px-4 my-4 lg:w-6/12">
                   <a
                     href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
@@ -341,7 +341,7 @@ const Home: React.FC = () => {
                     </div>
                   </a>
                 </div>
-                <div className="w-full px-4 my-4 lg:w-6/12 lg:mt-16">
+                <div className="w-full px-4 my-4 mt-16 lg:w-6/12 lg:mt-16">
                   <a
                     href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
                     target="_blank"
