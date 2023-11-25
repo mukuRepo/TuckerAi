@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
           <Link href="/career">
           <p className='hover:underline'>Career</p>
           </Link>
-          <Button className='hover:bg-blue-500'>Contact Us</Button>
+          <Button className='hover:bg-blue-500'>Contact</Button>
           </div>
         <div className='block sm:hidden'>
       <DropdownMenu>

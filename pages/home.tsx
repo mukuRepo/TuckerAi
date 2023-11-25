@@ -24,16 +24,24 @@ const Home: React.FC = () => {
       <ParticleComponent />
         <section className="text-center gap-2 h-[300px] flex md:flex-row flex-col md:h-auto justify-center">
           <div className='flex flex-col justify-center w-full h-full'>
-          <h1 className="mb-4 text-3xl font-extrabold text-left text-gray-800 sm:text-4xl">
+          <h1 className="w-11/12 mb-4 text-3xl font-extrabold text-center text-gray-800 sm:text-4xl">
             Welcome to Tucker Ai
           </h1>
-          <p className="text-justify text-gray-600">
+          <p className="w-11/12 text-justify text-gray-600">
             <br></br>
             Tucker AI is a cutting-edge artificial intelligence company dedicated to pushing the boundaries of what is possible in the field of machine learning. Our team of experts is passionate about creating innovative solutions that harness the power of AI to solve real-world problems.
             <br></br>
             <br></br>
             Transforming businesses with our cutting-edge machine learning and artificial intelligence solutions. 
           </p>
+          <div className="flex justify-center w-11/12 mt-8">
+            <a
+              href="/contact"
+              className="px-6 py-3 font-bold text-white transition duration-300 bg-black rounded-lg hover:bg-blue-600"
+            >
+              Contact Us
+            </a>
+          </div>
           </div>
           <div className='flex flex-col items-center justify-center w-full sm:w-9/12'>
             <div><ParticleSliderComponent logoSrc='/ds.png'/></div>
@@ -84,7 +92,7 @@ const Home: React.FC = () => {
                   Custom Software Development
                 </h2>
                 <p className="text-gray-600">
-                Discover our bespoke video editing software, seamlessly blending creativity with efficiency through AI automation. Witness the future of custom software development – explore our solutions now!
+                Discover our bespoke video editing software, seamlessly blending creativity and efficiency. Experience AI-driven automation that transforms editing workflows. Explore our custom solutions and elevate your video editing experience.
                 </p>
               </div>
               </Link>
