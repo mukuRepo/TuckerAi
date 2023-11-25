@@ -1,5 +1,3 @@
-// pages/contact.tsx
-
 import ParticleComponent from '@/components/ParticleComponent';
 import React from 'react';
 
@@ -10,7 +8,7 @@ const ContactPage: React.FC = () => {
   };
 
   return (
-    <div className='bg-transparent bg-white'>
+    <div className='bg-transparent'>
     <ParticleComponent />   
      <div className="flex flex-col items-center justify-center gap-5 p-10 bg-transparent h-max ">
         
