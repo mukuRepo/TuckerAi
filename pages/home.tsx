@@ -24,17 +24,17 @@ const Home: React.FC = () => {
       <ParticleComponent />
         <section className="text-center gap-2 h-[300px] flex md:flex-row flex-col md:h-auto justify-center">
           <div className='flex flex-col justify-center w-full h-full'>
-          <h1 className="w-11/12 mb-4 text-3xl font-extrabold text-center text-gray-800 sm:text-4xl">
+          <h1 className="w-full mb-4 text-2xl font-extrabold text-center text-gray-800 sm:w-11/12 sm:text-4xl">
             Welcome to Tucker Ai
           </h1>
-          <p className="w-11/12 text-justify text-gray-600">
+          <p className="w-full text-justify text-gray-600 sm:w-11/12">
             <br></br>
             Tucker AI is a cutting-edge artificial intelligence company dedicated to pushing the boundaries of what is possible in the field of machine learning. Our team of experts is passionate about creating innovative solutions that harness the power of AI to solve real-world problems.
             <br></br>
             <br></br>
             Transforming businesses with our cutting-edge machine learning and artificial intelligence solutions. 
           </p>
-          <div className="flex justify-center w-11/12 mt-8">
+          <div className="flex justify-center w-full mt-8 sm:w-11/12">
             <a
               href="/contact"
               className="px-6 py-3 font-bold text-white transition duration-300 bg-black rounded-lg hover:bg-blue-600"
@@ -52,7 +52,7 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {/* Replace these placeholder images and content with your actual content */}
             <Link href={"/Custom Application Development"}>
-              <div className="p-6 bg-white rounded-lg shadow-md hover:bg-blue-300 hover:mt-[-15px]">
+              <div className="relative p-6 bg-white rounded-lg shadow-md hover:bg-blue-300 hover:-mt-4">
                 <img
                   src={`https://source.unsplash.com/400x300/?ai,ml,1`}
                   alt={`AI/ML 1`}
@@ -67,7 +67,7 @@ const Home: React.FC = () => {
               </div>
               </Link>
               <Link href={"/Custom Website Development"}>
-              <div className="p-6 bg-white rounded-lg shadow-md hover:bg-pink-300 hover:mt-[-15px]">
+              <div className="relative p-6 bg-white rounded-lg shadow-md hover:bg-pink-300 hover:-mt-4">
                 <img
                   src={`https://source.unsplash.com/400x300/?ai,ml,2`}
                   alt={`AI/ML 1`}
@@ -82,7 +82,7 @@ const Home: React.FC = () => {
               </div>
               </Link>
               <Link href={"/Custom Software Development"}>
-              <div className="p-6 bg-white rounded-lg shadow-md hover:bg-green-300 hover:mt-[-15px]">
+              <div className="relative p-6 bg-white rounded-lg shadow-md hover:bg-green-300 hover:-mt-4">
                 <img
                   src={`https://source.unsplash.com/400x300/?ai,ml,3`}
                   alt={`AI/ML 1`}
