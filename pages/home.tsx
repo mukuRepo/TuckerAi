@@ -52,7 +52,7 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {/* Replace these placeholder images and content with your actual content */}
             <Link href={"/Custom Application Development"}>
-              <div className="p-6 bg-white rounded-lg shadow-md hover:bg-blue-300">
+              <div className="p-6 bg-white rounded-lg shadow-md hover:bg-blue-300 hover:mt-[-15px]">
                 <img
                   src={`https://source.unsplash.com/400x300/?ai,ml,1`}
                   alt={`AI/ML 1`}
@@ -67,7 +67,7 @@ const Home: React.FC = () => {
               </div>
               </Link>
               <Link href={"/Custom Website Development"}>
-              <div className="p-6 bg-white rounded-lg shadow-md hover:bg-pink-300">
+              <div className="p-6 bg-white rounded-lg shadow-md hover:bg-pink-300 hover:mt-[-15px]">
                 <img
                   src={`https://source.unsplash.com/400x300/?ai,ml,2`}
                   alt={`AI/ML 1`}
@@ -82,7 +82,7 @@ const Home: React.FC = () => {
               </div>
               </Link>
               <Link href={"/Custom Software Development"}>
-              <div className="p-6 bg-white rounded-lg shadow-md hover:bg-green-300">
+              <div className="p-6 bg-white rounded-lg shadow-md hover:bg-green-300 hover:mt-[-15px]">
                 <img
                   src={`https://source.unsplash.com/400x300/?ai,ml,3`}
                   alt={`AI/ML 1`}
