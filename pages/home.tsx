@@ -35,12 +35,12 @@ const Home: React.FC = () => {
             Transforming businesses with our cutting-edge machine learning and artificial intelligence solutions. 
           </p>
           <div className="flex justify-center w-full mt-8 sm:w-11/12">
-            <a
+            <Link
               href="/contact"
               className="px-6 py-3 font-bold text-white transition duration-300 bg-black rounded-lg hover:bg-blue-600"
             >
               Contact Us
-            </a>
+            </Link>
           </div>
           </div>
           <div className='flex flex-col items-center justify-center w-full sm:w-9/12'>
@@ -705,12 +705,12 @@ const Home: React.FC = () => {
                 </a>
               </div> */}
               <div className="mt-8">
-            <a
+            <Link
               href="/contact"
               className="px-6 py-3 text-white transition duration-300 bg-blue-500 rounded-full hover:bg-blue-600"
             >
               Contact Us
-            </a>
+            </Link>
           </div>
             </div>
           </div>
