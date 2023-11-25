@@ -32,7 +32,7 @@ const Home: React.FC = () => {
             Tucker AI is a cutting-edge artificial intelligence company dedicated to pushing the boundaries of what is possible in the field of machine learning. Our team of experts is passionate about creating innovative solutions that harness the power of AI to solve real-world problems.
             <br></br>
             <br></br>
-            Transforming businesses with cutting-edge machine learning and artificial intelligence solutions. 
+            Transforming businesses with our cutting-edge machine learning and artificial intelligence solutions. 
           </p>
           </div>
           <div className='flex flex-col items-center justify-center w-full sm:w-9/12'>
@@ -43,35 +43,66 @@ const Home: React.FC = () => {
         <section className="mt-12">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {/* Replace these placeholder images and content with your actual content */}
-            {Array.from({ length: 3 }).map((_, index) => (
-              <div key={index} className="p-6 bg-white rounded-lg shadow-md">
+            <Link href={"/Custom Application Development"}>
+              <div className="p-6 bg-white rounded-lg shadow-md hover:bg-blue-300">
                 <img
-                  src={`https://source.unsplash.com/400x300/?ai,ml,${index}`}
-                  alt={`AI/ML ${index}`}
+                  src={`https://source.unsplash.com/400x300/?ai,ml,1`}
+                  alt={`AI/ML 1`}
                   className="object-cover w-full h-48 mb-4 rounded-md"
                 />
                 <h2 className="mb-2 text-xl font-semibold text-gray-800">
-                  Coming Soon #{index + 1} 
+                  Custom Application Development
                 </h2>
                 <p className="text-gray-600">
-                  Work in Progress.
+                Explore our cutting-edge ML applications for Android and iOS! Dive into a world of custom-developed solutions that leverage machine learning, enhancing user experiences. Visit now to witness innovation in action.
                 </p>
               </div>
-            ))}
+              </Link>
+              <Link href={"/Custom Website Development"}>
+              <div className="p-6 bg-white rounded-lg shadow-md hover:bg-pink-300">
+                <img
+                  src={`https://source.unsplash.com/400x300/?ai,ml,2`}
+                  alt={`AI/ML 1`}
+                  className="object-cover w-full h-48 mb-4 rounded-md"
+                />
+                <h2 className="mb-2 text-xl font-semibold text-gray-800">
+                  Custom Website Development
+                </h2>
+                <p className="text-gray-600">
+                Discover our bespoke web solutions, from NFT platforms to blockchain-based gaming sites. Dive into our portfolio to witness the seamless integration of technology and creativity. Explore the future of web development with us.
+                </p>
+              </div>
+              </Link>
+              <Link href={"/Custom Software Development"}>
+              <div className="p-6 bg-white rounded-lg shadow-md hover:bg-green-300">
+                <img
+                  src={`https://source.unsplash.com/400x300/?ai,ml,3`}
+                  alt={`AI/ML 1`}
+                  className="object-cover w-full h-48 mb-4 rounded-md"
+                />
+                <h2 className="mb-2 text-xl font-semibold text-gray-800">
+                  Custom Software Development
+                </h2>
+                <p className="text-gray-600">
+                Discover our bespoke video editing software, seamlessly blending creativity with efficiency through AI automation. Witness the future of custom software development – explore our solutions now!
+                </p>
+              </div>
+              </Link>
           </div>
         </section>
 
-        <section className="mt-12 ml-4">
+        <section className="mt-12">
           <h2 className="mb-4 text-2xl font-bold">Why Choose Tucker AI?</h2>
           <p className="mb-8 text-lg text-gray-700">
             At Tucker AI, we are dedicated to delivering top-notch AI and ML services. Here's why you should choose us:
           </p>
-          <ul className="list-disc list-inside">
-            <li>Experienced team of AI and ML experts</li>
-            <li>Cutting-edge technology solutions</li>
-            <li>Proven track record of successful projects</li>
-            <li>Customized services to meet your business goals</li>
-          </ul>
+          <ol className="w-11/12 space-y-1 list-decimal list-inside ">
+            <li className='font-bold'>Expert Team:<span className='font-normal'> Our seasoned AI and ML professionals bring a wealth of experience to ensure the success of your projects.</span></li>
+            <li className='font-bold'>Cutting-Edge Solutions:<span className='font-normal'> We leverage the latest in technology, providing you with innovative AI and ML solutions that stay ahead of the curve.</span></li>
+            <li className='font-bold'>Proven Track Record:<span className='font-normal'> With a history of successful projects, we've consistently delivered results, earning the trust of our clients.</span></li>
+            <li className='font-bold'>Customized Services:<span className='font-normal'> Tailoring our offerings to your specific business goals, we prioritize your unique needs, ensuring a personalized and effective approach.</span></li>
+            
+          </ol>
         </section>
 
         
@@ -590,7 +621,7 @@ const Home: React.FC = () => {
       </section>
 
 
-      <section className="w-full py-20 overflow-hidden mt-[-250px]">
+      <section className="w-full py-20 overflow-hidden mt-0 sm:mt-[-250px]">
         <div className="container pb-64 mx-auto">
           <div className="flex flex-wrap justify-center">
             <div className="w-full px-12 ml-auto mr-auto md:w-5/12 md:px-4 md:mt-64">

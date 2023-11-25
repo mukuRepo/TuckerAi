@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
     <nav className="fixed top-0 z-10 w-full p-4 text-black bg-white bg-opacity-30">
       <div className="container flex items-center justify-between mx-auto font-semibold">
         <Link href="/">
-          <p className="text-lg font-bold sm:text-xl">Tucker&nbsp;Ai</p>
+          <p className="text-lg font-bold rounded-xl sm:text-xl">Tucker&nbsp;Ai</p>
         </Link>
         <div className="flex flex-row items-center justify-center space-x-4">
           <div className='hidden space-x-4 sm:flex sm:flex-row sm:justify-center sm:items-center '>
