@@ -26,6 +26,7 @@
     "lucide-react": "^0.216.0",
     "navigation-menu": "^1.0.0",
     "next": "13.4.2",
+    "nodemailer": "^6.9.7",
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",

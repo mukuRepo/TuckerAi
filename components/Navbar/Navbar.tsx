@@ -38,7 +38,9 @@ const Navbar: React.FC = () => {
           <Link href="/career">
           <p className='hover:underline'>Career</p>
           </Link>
+          <Link href={"/contact"}>
           <Button className='hover:bg-blue-500'>Contact</Button>
+          </Link>
           </div>
         <div className='block sm:hidden'>
       <DropdownMenu>
@@ -75,7 +77,9 @@ const Navbar: React.FC = () => {
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
         <div className='flex justify-center w-full mt-2'>
-        <Button className='hover:bg-blue-500'>Contact Us</Button>
+        <Link href={"/contact"}>
+          <Button className='hover:bg-blue-500'>Contact Us</Button>
+          </Link>
         </div>
       </DropdownMenuContent>
     </DropdownMenu>
