@@ -37,7 +37,7 @@ const Home: React.FC = () => {
                   <div className="relative flex flex-col w-full min-w-0 mb-6 text-gray-700 break-words transition-all duration-150 ease-linear bg-white border-2 border-black rounded-lg shadow-lg hover:text-white hover:bg-pink-300 hover:-mt-4">
                     <img
                       alt="Human AI Development"
-                      className="h-auto max-w-full align-middle border-none rounded-lg "
+                      className="h-auto max-w-full align-middle border-2 border-black rounded-lg "
                       src="https://source.unsplash.com/400x300/?ai,ml,28"
                     />
                     <div className="p-4">
@@ -57,7 +57,7 @@ const Home: React.FC = () => {
                   <div className="relative flex flex-col w-full min-w-0 mb-6 text-gray-700 break-words transition-all duration-150 ease-linear bg-white border-2 border-black rounded-lg shadow-lg hover:text-white hover:bg-green-300 hover:-mt-4">
                     <img
                       alt="Web3 Development"
-                      className="h-auto max-w-full align-middle border-none rounded-lg"
+                      className="h-auto max-w-full align-middle border-2 border-black rounded-lg"
                       src="https://source.unsplash.com/400x300/?ai,ml,25"
                     />
                     <div className="p-4">

@@ -12,7 +12,7 @@ const About: React.FC = () => {
       </Head>
       <main className="container flex flex-col gap-1 text-justify mt-[70px]">
       <ParticleComponent />
-        <div className='flex flex-row w-full mx-auto text-justify'>
+        <div className='flex flex-col w-full mx-auto text-justify sm:flex-row'>
           <div className='flex flex-col w-full'>
         <h1 className="mb-4 text-4xl font-bold">About Tucker AI</h1>
         <p className="mb-6">
@@ -33,7 +33,7 @@ const About: React.FC = () => {
         </p>
 
         </div>
-        <div className='flex flex-col justify-center w-7/12 h-auto mt-4 text-center'>
+        <div className='flex flex-col justify-center w-full h-auto mt-4 text-center sm:w-7/12'>
 
           <ParticleSliderComponent logoSrc='/kp.png'/>
           <p className='font-bold text-[18px] -mt-12'>
@@ -42,7 +42,7 @@ const About: React.FC = () => {
           <div className='flex flex-row justify-center w-full mt-8 items-cneter'>             
               <Link
                 href="/contact"
-                className="px-6 py-3 font-bold text-white transition duration-300 bg-black rounded-lg hover:bg-blue-600"
+                className="px-6 py-3 mb-0 font-bold text-white transition duration-300 bg-black rounded-lg sm:mb-10 hover:bg-blue-600"
               >
                 Contact Us
               </Link>
