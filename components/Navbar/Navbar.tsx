@@ -19,7 +19,7 @@ import { MdMenu } from "react-icons/md";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="fixed top-0 z-10 w-full p-4 text-black bg-white bg-opacity-30">
+    <nav className="fixed top-0 z-10 w-full p-4 text-black bg-white bg-opacity-10">
       <div className="container flex items-center justify-between mx-auto font-semibold">
         <Link href="/">
           <p className="text-lg font-bold rounded-xl sm:text-xl">Tucker&nbsp;Ai</p>
