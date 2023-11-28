@@ -56,7 +56,7 @@ const Home: React.FC = () => {
             <Link href={"/Custom Application Development"}>
               <div className="relative p-6 bg-gray-100 border-2 border-black rounded-lg shadow-md hover:bg-blue-300 hover:-mt-4">
                 <img
-                  src={`https://source.unsplash.com/400x300/?ai,ml,1`}
+                  src={`https://source.unsplash.com/400x300/?Mobile,ai,ml,1`}
                   alt={`AI/ML 1`}
                   className="object-cover w-full h-48 mb-4 border-2 border-black rounded-md"
                 />
@@ -71,7 +71,7 @@ const Home: React.FC = () => {
               <Link href={"/Custom Website Development"}>
               <div className="relative p-6 bg-gray-100 border-2 border-black rounded-lg shadow-md hover:bg-pink-300 hover:-mt-4">
                 <img
-                  src={`https://source.unsplash.com/400x300/?ai,ml,2`}
+                  src={`https://source.unsplash.com/400x300/?web,website,site,2`}
                   alt={`AI/ML 1`}
                   className="object-cover w-full h-48 mb-4 border-2 border-black rounded-md"
                 />
@@ -86,7 +86,7 @@ const Home: React.FC = () => {
               <Link href={"/Custom Software Development"}>
               <div className="relative p-6 bg-gray-100 border-2 border-black rounded-lg shadow-md hover:bg-green-300 hover:-mt-4">
                 <img
-                  src={`https://source.unsplash.com/400x300/?ai,ml,3`}
+                  src={`https://source.unsplash.com/400x300/?software,ai,ml,3`}
                   alt={`AI/ML 1`}
                   className="object-cover w-full h-48 mb-4 border-2 border-black rounded-md"
                 />
@@ -314,7 +314,7 @@ const Home: React.FC = () => {
                 />
                 <img
                   alt="..."
-                  src="https://source.unsplash.com/400x50/?ai,ml,5"
+                  src="https://source.unsplash.com/400x40/?ai,ml,10"
                   className="absolute w-full align-middle rounded shadow-lg border-2 border-black max-w-[580px] max-h-[40px] -left-[20px] top-[210px]"
                 />
                 <img
@@ -574,7 +574,7 @@ const Home: React.FC = () => {
                       <img
                         alt="..."
                         className="h-auto max-w-full align-middle border-2 border-black rounded-lg"
-                        src="https://source.unsplash.com/400x300/?ai,ml,45"
+                        src="https://source.unsplash.com/400x300/?detection,ai,ml,45"
                       />
                     </div>
                   </Link>
@@ -589,7 +589,7 @@ const Home: React.FC = () => {
                       <img
                         alt="..."
                         className="h-auto max-w-full align-middle border-none rounded-lg "
-                        src="https://source.unsplash.com/400x300/?ai,ml,28"
+                        src="https://source.unsplash.com/400x300/?HumanAI,Human,ai,ml,28"
                       />
                     </div>
                   </Link>
@@ -604,7 +604,7 @@ const Home: React.FC = () => {
                       <img
                         alt="..."
                         className="h-auto max-w-full align-middle border-none rounded-lg"
-                        src="https://source.unsplash.com/400x300/?ai,ml,25"
+                        src="https://source.unsplash.com/400x300/?web3,ai,ml,25"
                       />
                     </div>
                   </Link>
