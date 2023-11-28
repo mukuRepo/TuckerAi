@@ -1,26 +1,80 @@
-// pages/under-development.tsx
-import Head from 'next/head';
+import ParticleComponent from '@/components/ParticleComponent';
+import Link from 'next/link';
 
-const UnderDevelopment: React.FC = () => {
+const Home: React.FC = () => {
   return (
-    <>
-      <Head>
-        <title>Tucker AI | Under Development</title>
-      </Head>
-      <main className="container mx-auto mt-20 text-center">
-        <h1 className="mb-4 text-4xl font-bold">Under Development</h1>
-        <p className="mb-6 text-lg">
-          We're sorry, but this page is currently under development. 
-          Please check back soon for exciting updates!
-        </p>
-        <img
-          src="https://i0.wp.com/cliqist.com/wp-content/uploads/2014/07/underdevelopmentlogo.jpg?fit=1126%2C451"  // Replace with your image path
-          alt="Under Construction"
-          className="mx-auto w-[800px] h-100"
-        />
-      </main>
-    </>
+    <section className="relative blockz-1 mt-44">
+      <ParticleComponent/>  
+      <div className="container mx-auto">
+        <div className="flex flex-wrap justify-center">
+          <div className="w-full px-4 -mt-24 lg:w-12/12">
+            <div className="flex flex-wrap">
+              <div className="w-full px-4 lg:w-4/12">
+                <h5 className="pb-4 text-xl font-semibold text-center">
+                  Custom Detection
+                </h5>
+                <Link href="/">
+                  <div className="relative flex flex-col w-full min-w-0 mb-6 text-gray-700 break-words transition-all duration-150 ease-linear bg-white border-2 border-black rounded-lg shadow-lg hover:text-white hover:bg-blue-300 hover:-mt-4">
+                    <img
+                      alt="Custom Detection"
+                      className="h-auto max-w-full align-middle border-2 border-black rounded-lg"
+                      src="https://source.unsplash.com/400x300/?ai,ml,45"
+                    />
+                    <div className="p-4">
+                      <p className="text-center">
+                        Explore our custom detection solutions tailored to your specific needs. Our advanced AI algorithms ensure accurate and efficient detection in various domains.
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+
+              <div className="w-full px-4 lg:w-4/12">
+                <h5 className="pb-4 text-xl font-semibold text-center">
+                  Human AI Development
+                </h5>
+                <Link href="/">
+                  <div className="relative flex flex-col w-full min-w-0 mb-6 text-gray-700 break-words transition-all duration-150 ease-linear bg-white border-2 border-black rounded-lg shadow-lg hover:text-white hover:bg-pink-300 hover:-mt-4">
+                    <img
+                      alt="Human AI Development"
+                      className="h-auto max-w-full align-middle border-none rounded-lg "
+                      src="https://source.unsplash.com/400x300/?ai,ml,28"
+                    />
+                    <div className="p-4">
+                      <p className="text-center">
+                        Dive into the world of Human AI Development. Our experts harness the power of machine learning to create intelligent solutions that interact seamlessly with human behavior.
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+
+              <div className="w-full px-4 lg:w-4/12">
+                <h5 className="pb-4 text-xl font-semibold text-center">
+                  Web3 Development
+                </h5>
+                <Link href="/">
+                  <div className="relative flex flex-col w-full min-w-0 mb-6 text-gray-700 break-words transition-all duration-150 ease-linear bg-white border-2 border-black rounded-lg shadow-lg hover:text-white hover:bg-green-300 hover:-mt-4">
+                    <img
+                      alt="Web3 Development"
+                      className="h-auto max-w-full align-middle border-none rounded-lg"
+                      src="https://source.unsplash.com/400x300/?ai,ml,25"
+                    />
+                    <div className="p-4">
+                      <p className="text-center">
+                        Embrace the future with our cutting-edge Web3 Development solutions. We leverage the latest advancements in artificial intelligence and machine learning to build decentralized applications.
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 
-export default UnderDevelopment;
+export default Home;

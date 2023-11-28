@@ -166,7 +166,7 @@ const Home: React.FC = () => {
                 <img
                   alt="..."
                   src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
-                  className="w-full align-middle border-2 border-black rounded-t-lg"
+                  className="w-full align-middle border-b-2 border-black rounded-t-lg"
                 />
                 <blockquote className="relative p-8 mb-4">
                   <svg
@@ -257,7 +257,7 @@ const Home: React.FC = () => {
               <h3 className="mb-2 text-3xl font-semibold leading-normal">
                 AI Components
               </h3>
-              <p className="mt-4 mb-4 text-lg font-light leading-relaxed text-gray-600">
+              <p className="mt-4 mb-4 text-lg leading-relaxed text-gray-500">
                 Every element that you need in a product comes built in as a
                 component. All components fit perfectly with each other and can
                 have different functions for your usecase.
@@ -432,13 +432,13 @@ const Home: React.FC = () => {
               <h3 className="mb-2 text-3xl font-semibold leading-normal">
                 Custom Solutions
               </h3>
-              <p className="mt-4 mb-4 text-lg font-light leading-relaxed text-gray-600">
+              <p className="mt-4 text-lg leading-relaxed text-gray-500">
               Tailor-made products, services, or systems that are specifically designed and developed to meet the 
               unique requirements of a particular client, business, or situation. These solutions are crafted to address 
               specific challenges, leverage opportunities, 
               or fulfill particular needs that may not be adequately met by off-the-shelf or generic alternatives.
               </p>
-              <p className="mt-4 mb-4 text-lg font-light leading-relaxed text-gray-600">
+              <p className="mt-4 mb-2 text-lg leading-relaxed text-gray-500">
                 We created a set of Solutions that are dynamic and come to help
                 you.
               </p>
@@ -483,9 +483,9 @@ const Home: React.FC = () => {
                   Complex Documentation
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-gray-500">
-                  This extension comes a lot of fully coded examples that help
-                  you get started faster. You can adjust the colors and also the
-                  programming language. You can change the text and images and
+                  We help to provide a lot of fully coded examples that help
+                  you get started faster. You can adjust the requirements and also the
+                  programming language. You can change the data and images and variables and
                   you're good to go.
                 </p>
                 <ul className="mt-6 list-none">
@@ -526,7 +526,7 @@ const Home: React.FC = () => {
                       </div>
                       <div>
                         <h4 className="text-gray-1000">
-                          Dynamic Javascript Components
+                          Dynamic Custom Components
                         </h4>
                       </div>
                     </div>
