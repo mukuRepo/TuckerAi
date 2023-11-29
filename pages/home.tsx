@@ -34,18 +34,23 @@ const Home: React.FC = () => {
             <br></br> 
             Transforming businesses with our cutting-edge machine learning and artificial intelligence solutions. 
           </p>
-            <div className="flex justify-center w-full mt-8 sm:w-11/12">
+          </div>
+          <div className='flex flex-col items-center justify-center w-full h-auto sm:w-9/12'>
+            <div>
+              <ParticleSliderComponent logoSrc='/ds.png'/>
+              <div>
+              <p className='font-bold text-[18px] -mt-10'>
+              Let's Bring Your Ideas to Reality
+              </p>
+              </div>
+              <div className='flex flex-row items-center justify-center w-full h-auto mt-2'>   
               <Link
                 href="/contact"
                 className="px-6 py-3 font-bold text-black transition duration-300 bg-white border-2 border-black rounded-lg hover:bg-blue-300"
               >
                 Contact Us
-              </Link>
-            </div>
-          </div>
-          <div className='flex flex-col items-center justify-center w-full sm:w-9/12'>
-            <div>
-              <ParticleSliderComponent logoSrc='/ds.png'/>
+                </Link>
+                </div>
             </div>
           </div>
         </section>
@@ -53,7 +58,7 @@ const Home: React.FC = () => {
         <section className="mt-12">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {/* Replace these placeholder images and content with your actual content */}
-            <Link href={"/Custom Application Development"}>
+            <Link href={"/customApp"}>
               <div className="relative p-6 bg-gray-100 border-2 border-black rounded-lg shadow-md hover:bg-blue-300 hover:-mt-4">
                 <img
                   src={`https://source.unsplash.com/400x300/?Mobile,ai,ml,1`}
@@ -68,7 +73,7 @@ const Home: React.FC = () => {
                 </p>
               </div>
               </Link>
-              <Link href={"/Custom Website Development"}>
+              <Link href={"/customWeb"}>
               <div className="relative p-6 bg-gray-100 border-2 border-black rounded-lg shadow-md hover:bg-pink-300 hover:-mt-4">
                 <img
                   src={`https://source.unsplash.com/400x300/?web,website,site,2`}
@@ -83,7 +88,7 @@ const Home: React.FC = () => {
                 </p>
               </div>
               </Link>
-              <Link href={"/Custom Software Development"}>
+              <Link href={"/customSoft"}>
               <div className="relative p-6 bg-gray-100 border-2 border-black rounded-lg shadow-md hover:bg-green-300 hover:-mt-4">
                 <img
                   src={`https://source.unsplash.com/400x300/?software,ai,ml,3`}
@@ -569,7 +574,7 @@ const Home: React.FC = () => {
                   <h5 className="pb-4 text-xl font-semibold text-center">
                     Custom Detection
                   </h5>
-                  <Link href="/">
+                  <Link href="/customApp">
                     <div className="relative flex flex-col w-full min-w-0 mb-6 break-words transition-all duration-150 ease-linear bg-white border-2 border-black rounded-lg shadow-lg hover:-mt-4">
                       <img
                         alt="..."
@@ -584,7 +589,7 @@ const Home: React.FC = () => {
                   <h5 className="pb-4 text-xl font-semibold text-center">
                     Human AI Development
                   </h5>
-                  <Link href="/">
+                  <Link href="/humanAi">
                     <div className="relative flex flex-col w-full min-w-0 mb-6 break-words transition-all duration-150 ease-linear bg-white border-2 border-black rounded-lg shadow-lg hover:-mt-4">
                       <img
                         alt="..."
@@ -599,7 +604,7 @@ const Home: React.FC = () => {
                   <h5 className="pb-4 text-xl font-semibold text-center">
                     Web3 Development
                   </h5>
-                  <Link href="/">
+                  <Link href="/web3">
                     <div className="relative flex flex-col w-full min-w-0 mb-6 break-words transition-all duration-150 ease-linear bg-white border-2 border-black rounded-lg shadow-lg hover:-mt-4">
                       <img
                         alt="..."

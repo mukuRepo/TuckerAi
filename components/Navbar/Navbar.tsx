@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="fixed top-0 z-10 w-full p-4 text-black bg-white bg-opacity-10">
       <div className="container flex items-center justify-between mx-auto font-semibold">
-        <Link href="/">
+        <Link href="/home">
           <p className="text-lg font-bold rounded-xl sm:text-xl">Tucker&nbsp;Ai</p>
         </Link>
         <div className="flex flex-row items-center justify-center space-x-4">
@@ -45,9 +45,9 @@ const Navbar: React.FC = () => {
         <div className='block sm:hidden'>
       <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" className="font-bold text-white bg-gray-800"><MdMenu/></Button>
+        <Button variant="outline" className="font-bold text-black bg-white border-2 border-black"><MdMenu/></Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-56">
+      <DropdownMenuContent className="w-36">
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
           <DropdownMenuItem>

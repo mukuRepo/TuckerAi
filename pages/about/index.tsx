@@ -39,7 +39,7 @@ const About: React.FC = () => {
           <p className='font-bold text-[18px] -mt-12'>
           Let's Build the future together
           </p>
-          <div className='flex flex-row justify-center w-full mt-8 items-cneter'>             
+          <div className='flex flex-row justify-center w-full mt-4 items-cneter'>             
               <Link
                 href="/contact"
                 className="px-6 py-3 mb-0 font-bold text-white transition duration-300 bg-black rounded-lg sm:mb-10 hover:bg-blue-600"

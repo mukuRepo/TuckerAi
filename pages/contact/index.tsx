@@ -27,6 +27,7 @@ const ContactPage: React.FC = () => {
                 type="text"
                 id="name"
                 name="name"
+                placeholder='Enter Name'
                 className="w-full p-2 mt-1 text-black border rounded-md focus:outline-none focus:ring focus:border-blue-300"
                 required
               />
@@ -38,6 +39,7 @@ const ContactPage: React.FC = () => {
               <input
                 type="email"
                 id="email"
+                placeholder='Enter Email Id'
                 name="email"
                 className="w-full p-2 mt-1 text-black border rounded-md focus:outline-none focus:ring focus:border-blue-300"
                 required
@@ -51,6 +53,7 @@ const ContactPage: React.FC = () => {
             <input
               type="tel"
               id="phone"
+              placeholder='Enter Phone Number'
               name="phone"
               className="w-full p-2 mt-1 text-black border rounded-md focus:outline-none focus:ring focus:border-blue-300"
               required
@@ -63,6 +66,7 @@ const ContactPage: React.FC = () => {
             <textarea
               id="comment"
               name="comment"
+              placeholder='Enter Query Here'
               rows={4}
               className="w-full p-2 mt-1 text-black border rounded-md focus:outline-none focus:ring focus:border-blue-300"
               required
