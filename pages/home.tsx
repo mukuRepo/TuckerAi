@@ -144,7 +144,7 @@ const Home: React.FC = () => {
 
       {/* {testing} */}
 
-      <section className="relative pb-40 mt-48 md:mt-40">
+      <section className="relative pb-40 mt-40 sm:mt-48 md:mt-40">
         <div
           className="absolute top-0 left-0 right-0 bottom-auto w-full h-20 -mt-20"
           style={{ transform: "translateZ(0)" }}
@@ -173,7 +173,7 @@ const Home: React.FC = () => {
                   src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
                   className="w-full align-middle border-b-2 border-black rounded-t-lg"
                 />
-                <blockquote className="relative p-8 mb-4">
+                <blockquote className="relative p-2 mb-4 sm:p-8">
                   <svg
                     preserveAspectRatio="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -183,7 +183,7 @@ const Home: React.FC = () => {
 
                   </svg>
                   <h4 className="text-xl font-bold text-center text-black">
-                    Fantastic for embarking on your Tucker AI journey!
+                    Fantastic for embarking on your journey!
                   </h4>
                   <p className="mt-2 font-light text-justify text-black text-md">
                   Crafting a compelling online presence has never been more seamless, thanks to our collection of pre-designed components. Whether you're envisioning captivating landing pages, engaging presentations, or user-friendly login areas, Tucker AI empowers you to effortlessly customize and construct your digital spaces.
@@ -256,10 +256,10 @@ const Home: React.FC = () => {
         <div className="container pb-20 mx-auto overflow-hidden text-center sm:text-justify">
           <div className="flex flex-wrap items-center">
             <div className="w-full mt-8 ml-auto mr-auto text-left sm:mt-48 sm:px-12 md:w-4/12 md:px-4 sm:text-justify">
-              <div className="inline-flex items-center justify-center w-16 h-16 p-3 mb-6 text-justify text-black bg-white border-2 border-black rounded-full shadow-lg sm:text-center">
+              <div className="inline-flex items-center justify-center p-3 mb-6 text-justify text-black bg-white border-2 border-black rounded-full shadow-lg sm:h-16 sm:w-16 sm:text-center">
                 <TbSitemap className="text-xl fas fa-sitemap"/>
               </div>
-              <h3 className="mb-2 text-3xl font-semibold leading-normal">
+              <h3 className="mb-2 text-2xl font-semibold leading-normal sm:text-3xl">
                 AI Components
               </h3>
               <p className="mt-4 mb-4 text-lg leading-relaxed text-gray-500">
@@ -431,10 +431,10 @@ const Home: React.FC = () => {
             </div>
 
             <div className="w-full ml-auto mr-auto text-left mt-28 sm:px-12 sm:mt-20 md:w-4/12 md:px-4 sm:text-justify">
-              <div className="inline-flex items-center justify-center w-16 h-16 p-3 mb-6 text-justify bg-white border-2 border-black rounded-full shadow-lg text-balck">
+              <div className="inline-flex items-center justify-center p-3 mb-6 text-justify bg-white border-2 border-black rounded-full shadow-lg sm:w-16 sm:h-16 text-balck">
                 <FaDraftingCompass className="text-xl fas fa-drafting-compass"/>
               </div>
-              <h3 className="mb-2 text-3xl font-semibold leading-normal">
+              <h3 className="mb-2 text-2xl font-semibold leading-normal sm:text-3xl">
                 Custom Solutions
               </h3>
               <p className="mt-4 text-lg leading-relaxed text-gray-500">
@@ -477,14 +477,14 @@ const Home: React.FC = () => {
           </div>
         </div>
 
-        <div className="container px-4 sm:pt-48 pb-32 mx-auto sm:mt-[-100px]">
+        <div className="container sm:px-4 sm:pt-48 pb-32 mx-auto sm:mt-[-100px]">
           <div className="flex flex-wrap items-center">
             <div className="w-full ml-auto sm:px-12 md:w-5/12 md:px-4">
               <div className="md:pr-12">
-                <div className="inline-flex items-center justify-center w-16 h-16 p-3 mb-6 text-center text-black bg-white border-2 border-black rounded-full shadow-lg">
+                <div className="inline-flex items-center justify-center p-3 mb-6 text-center text-black bg-white border-2 border-black rounded-full shadow-lg sm:h-16 sm:w-16">
                   <FaFileAlt className="text-xl fas fa-file-alt"/>
                 </div>
-                <h3 className="text-3xl font-semibold">
+                <h3 className="text-xl font-semibold sm:text-3xl">
                   Complex Documentation
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-gray-500">
