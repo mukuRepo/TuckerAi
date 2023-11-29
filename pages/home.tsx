@@ -166,8 +166,8 @@ const Home: React.FC = () => {
         </div>
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
-            <div className="px-2 px-12 ml-auto mr-auto -mt-32 w-12/12 md:w-6/12 lg:w-4/12 md:px-4">
-              <div className="relative flex flex-col w-full min-w-0 mb-6 break-words bg-gray-100 border-2 border-black rounded-lg shadow-lg">
+            <div className="w-full -mt-32 sm:mr-auto sm:px-2 sm:ml-auto md:w-6/12 lg:w-4/12 md:px-4">
+              <div className="relative flex flex-col w-full min-w-0 break-words bg-gray-100 border-2 border-black rounded-lg shadow-lg sm:mb-6">
                 <img
                   alt="..."
                   src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
@@ -192,12 +192,12 @@ const Home: React.FC = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 text-center sm:text-justify md:w-6/12">
+            <div className="hidden w-full text-center sm:px-4 sm:text-justify md:w-6/12 sm:block">
               <div className="flex flex-wrap">
-                <div className="w-full px-4 md:w-6/12">
+                <div className="w-full sm:px-4 md:w-6/12">
                   <div className="relative flex flex-col mt-4">
                     <div className="flex-auto px-4 py-5">
-                      <div className="inline-flex items-center justify-center w-12 h-12 p-3 mb-5 text-center text-black bg-white border-2 border-black rounded-full shadow-lg">
+                      <div className="inline-flex items-center justify-center w-12 h-12 p-3 mb-5 text-justify text-black bg-white border-2 border-black rounded-full shadow-lg sm:text-center">
                         <FaSitemap/>
                       </div>
                       <h6 className="mb-1 text-xl font-semibold">
@@ -255,8 +255,8 @@ const Home: React.FC = () => {
 
         <div className="container pb-20 mx-auto overflow-hidden text-center sm:text-justify">
           <div className="flex flex-wrap items-center">
-            <div className="w-full px-12 mt-48 ml-auto mr-auto md:w-4/12 md:px-4">
-              <div className="inline-flex items-center justify-center w-16 h-16 p-3 mb-6 text-center text-black bg-white border-2 border-black rounded-full shadow-lg">
+            <div className="w-full mt-8 ml-auto mr-auto text-left sm:mt-48 sm:px-12 md:w-4/12 md:px-4 sm:text-justify">
+              <div className="inline-flex items-center justify-center w-16 h-16 p-3 mb-6 text-justify text-black bg-white border-2 border-black rounded-full shadow-lg sm:text-center">
                 <TbSitemap className="text-xl fas fa-sitemap"/>
               </div>
               <h3 className="mb-2 text-3xl font-semibold leading-normal">
@@ -333,7 +333,7 @@ const Home: React.FC = () => {
           </div>
 
           <div className="flex flex-wrap items-center pt-32">
-            <div className="w-full px-4 ml-auto mr-auto md:w-6/12">
+            <div className="hidden w-full px-4 ml-auto mr-auto sm:block md:w-6/12">
               <div className="relative flex flex-row items-center justify-center md:flex-wrap">
                 <div className="w-full px-4 my-4 lg:w-6/12">
                   <Link
@@ -430,8 +430,8 @@ const Home: React.FC = () => {
               </div>
             </div>
 
-            <div className="w-full px-12 mt-20 ml-auto mr-auto md:w-4/12 md:px-4">
-              <div className="inline-flex items-center justify-center w-16 h-16 p-3 mb-6 text-center bg-white border-2 border-black rounded-full shadow-lg text-balck">
+            <div className="w-full ml-auto mr-auto text-left mt-28 sm:px-12 sm:mt-20 md:w-4/12 md:px-4 sm:text-justify">
+              <div className="inline-flex items-center justify-center w-16 h-16 p-3 mb-6 text-justify bg-white border-2 border-black rounded-full shadow-lg text-balck">
                 <FaDraftingCompass className="text-xl fas fa-drafting-compass"/>
               </div>
               <h3 className="mb-2 text-3xl font-semibold leading-normal">
@@ -477,9 +477,9 @@ const Home: React.FC = () => {
           </div>
         </div>
 
-        <div className="container px-4 pt-48 pb-32 mx-auto mt-[-100px]">
+        <div className="container px-4 sm:pt-48 pb-32 mx-auto sm:mt-[-100px]">
           <div className="flex flex-wrap items-center">
-            <div className="w-full px-12 ml-auto md:w-5/12 md:px-4">
+            <div className="w-full ml-auto sm:px-12 md:w-5/12 md:px-4">
               <div className="md:pr-12">
                 <div className="inline-flex items-center justify-center w-16 h-16 p-3 mb-6 text-center text-black bg-white border-2 border-black rounded-full shadow-lg">
                   <FaFileAlt className="text-xl fas fa-file-alt"/>
@@ -556,8 +556,8 @@ const Home: React.FC = () => {
 
         <div className="flex flex-wrap justify-center text-center">
           <div className="w-full px-12 md:w-6/12 md:px-4">
-            <h2 className="text-4xl font-semibold">Examine Our Exemplar Solution</h2>
-            <p className="mt-4 mb-4 text-lg leading-relaxed text-gray-500">
+            <h2 className="text-xl font-semibold sm:text-4xl">Examine Our Exemplary Solution</h2>
+            <p className="mt-4 mb-4 text-lg leading-relaxed text-justify text-gray-500 sm:text-center">
             Sample solutions provide diverse insights and practical examples, 
             aiding understanding and problem-solving across various domains.
             </p>
@@ -624,7 +624,7 @@ const Home: React.FC = () => {
       <section className="w-full py-20 overflow-hidden mt-0 sm:mt-[-250px]">
         <div className="container pb-64 mx-auto">
           <div className="flex flex-wrap justify-center">
-            <div className="w-full px-12 ml-auto mr-auto md:w-5/12 md:px-4 md:mt-64">
+            <div className="w-full ml-auto mr-auto sm:px-12 md:w-5/12 md:px-4 md:mt-64">
               <div className="inline-flex items-center justify-center w-16 h-16 p-3 mb-6 text-center text-black bg-red-500 border-2 border-black rounded-full shadow-lg">
               <PiGitBranchFill className="text-xl fas fa-code-branch"/>
               </div>
@@ -686,14 +686,23 @@ const Home: React.FC = () => {
                   <span>Help With a Star</span>
                 </a>
               </div> */}
-              <div className="mt-8">
+              {/* <div className="mt-8">
             <Link
               href="/contact"
               className="px-6 py-3 text-white transition duration-300 bg-blue-500 rounded-full hover:bg-blue-600"
             >
               Contact Us
             </Link>
-          </div>
+          </div> */}
+
+          <div className='flex flex-row items-center justify-center w-full h-auto mt-2'>   
+              <Link
+                href="/contact"
+                className="px-6 py-3 font-bold text-white transition duration-300 bg-blue-500 border-2 border-white rounded-lg hover:bg-green-300"
+              >
+                Contact Us
+                </Link>
+                </div>
             </div>
           </div>
         </div>
