@@ -22,9 +22,9 @@ const Home: React.FC = () => {
       </Head>
       <main className="container mx-auto md:mt-[80px] mt-[200px]">
       <ParticleComponent />
-        <section className="text-center gap-2 h-[300px] flex md:flex-row flex-col md:h-auto justify-center">
+        <section className="text-center sm:gap-2 h-[300px] flex md:flex-row flex-col md:h-auto justify-center">
           <div className='flex flex-col justify-center w-full h-full'>
-          <h1 className="w-full mb-4 text-2xl font-extrabold text-center text-gray-800 sm:w-11/12 sm:text-4xl">
+          <h1 className="w-full text-2xl font-extrabold text-center text-gray-800 sm:mb-4 sm:w-11/12 sm:text-4xl">
             Welcome to Tucker Ai
           </h1>
           <p className="w-full text-justify text-gray-600 sm:w-11/12">
@@ -43,7 +43,7 @@ const Home: React.FC = () => {
               Let's Bring Your Ideas to Reality
               </p>
               </div>
-              <div className='flex flex-row items-center justify-center w-full h-auto mt-2'>   
+              <div className='flex flex-row items-center justify-center w-full h-auto mt-4 sm:mt-2'>   
               <Link
                 href="/contact"
                 className="px-6 py-3 font-bold text-black transition duration-300 bg-white border-2 border-black rounded-lg hover:bg-blue-300"
@@ -337,7 +337,7 @@ const Home: React.FC = () => {
               <div className="relative flex flex-row items-center justify-center md:flex-wrap">
                 <div className="w-full px-4 my-4 lg:w-6/12">
                   <Link
-                    href="\"
+                    href="/"
                   >
                     <div className="p-8 text-center bg-red-600 border-2 border-black rounded-lg shadow-lg">
                       <img
@@ -351,7 +351,7 @@ const Home: React.FC = () => {
                     </div>
                   </Link>
                   <Link
-                    href="\"
+                    href="/"
                   >
                     <div className="p-8 mt-8 text-center bg-blue-500 border-2 border-black rounded-lg shadow-lg">
                       <img
@@ -365,7 +365,7 @@ const Home: React.FC = () => {
                     </div>
                   </Link>
                   <Link
-                    href="\"
+                    href="/"
                     target="_blank"
                   >
                     <div className="p-8 mt-8 text-center bg-gray-700 border-2 border-black rounded-lg shadow-lg">
@@ -382,7 +382,7 @@ const Home: React.FC = () => {
                 </div>
                 <div className="w-full px-4 my-4 mt-16 lg:w-6/12 lg:mt-16">
                   <Link
-                    href="\"
+                    href="/"
                     target="_blank"
                   >
                     <div className="p-8 text-center bg-yellow-500 border-2 border-black rounded-lg shadow-lg">
