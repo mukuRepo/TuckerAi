@@ -13,7 +13,7 @@ const Home: React.FC = () => {
                 <h5 className="pb-4 text-xl font-semibold text-center">
                   Custom Detection
                 </h5>
-                <Link href="/">
+                <Link href="/customApp">
                   <div className="relative flex flex-col w-full min-w-0 mb-6 text-gray-700 break-words transition-all duration-150 ease-linear bg-white border-2 border-black rounded-lg shadow-lg hover:text-white hover:bg-blue-300 hover:-mt-4">
                     <img
                       alt="Custom Detection"
@@ -33,7 +33,7 @@ const Home: React.FC = () => {
                 <h5 className="pb-4 text-xl font-semibold text-center">
                   Human AI Development
                 </h5>
-                <Link href="/">
+                <Link href="/himanAi">
                   <div className="relative flex flex-col w-full min-w-0 mb-6 text-gray-700 break-words transition-all duration-150 ease-linear bg-white border-2 border-black rounded-lg shadow-lg hover:text-white hover:bg-pink-300 hover:-mt-4">
                     <img
                       alt="Human AI Development"
@@ -53,7 +53,7 @@ const Home: React.FC = () => {
                 <h5 className="pb-4 text-xl font-semibold text-center">
                   Web3 Development
                 </h5>
-                <Link href="/">
+                <Link href="/customWeb">
                   <div className="relative flex flex-col w-full min-w-0 mb-6 text-gray-700 break-words transition-all duration-150 ease-linear bg-white border-2 border-black rounded-lg shadow-lg hover:text-white hover:bg-green-300 hover:-mt-4">
                     <img
                       alt="Web3 Development"
