@@ -34,27 +34,29 @@ const Footer: React.FC = () => {
           </ul>
         </div>
         <div className="w-1/4">
-          <h3 className="mb-4 text-lg font-semibold">Follow Us</h3>
-          <div className="flex space-x-4">
-            <a
-              href="#"
-              className="text-white transition duration-300 hover:text-gray-300"
-            >
-              <i className="fab fa-facebook"></i>
-            </a>
-            <a
-              href="#"
-              className="text-white transition duration-300 hover:text-gray-300"
-            >
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a
-              href="#"
-              className="text-white transition duration-300 hover:text-gray-300"
-            >
-              <i className="fab fa-linkedin"></i>
-            </a>
-          </div>
+          <h3 className="mb-4 text-lg font-semibold">Policies</h3>
+          <ul className="text-sm">
+            <li>
+              <Link href="/policy/support" className="transition duration-300 hover:text-gray-300">
+              Support
+              </Link>
+            </li>
+            <li>
+              <a href="/policy/PrivacyPolicy" className="transition duration-300 hover:text-gray-300">
+              Privacy Policy
+              </a>
+            </li>
+            <li>
+              <Link href="/policy/Cancellation&RefundPolicy" className="transition duration-300 hover:text-gray-300">
+              Cancellation & Refund Policy
+              </Link>
+            </li>
+            <li>
+              <Link href="/policy/TermsofService" className="transition duration-300 hover:text-gray-300">
+              Terms of Service
+              </Link>
+            </li>
+          </ul>
         </div>
         <div className="hidden w-1/4 md:block">
           <h3 className="mb-4 text-lg font-semibold">Newsletter</h3>
