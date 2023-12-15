@@ -22,9 +22,9 @@ const Footer: React.FC = () => {
               </Link>
             </li>
             <li>
-              <a href="/services" className="transition duration-300 hover:text-gray-300">
+              <Link href="/services" className="transition duration-300 hover:text-gray-300">
                 Services
-              </a>
+              </Link>
             </li>
             <li>
               <Link href="/contact" className="transition duration-300 hover:text-gray-300">
@@ -42,9 +42,9 @@ const Footer: React.FC = () => {
               </Link>
             </li>
             <li>
-              <a href="/policy/PrivacyPolicy" className="transition duration-300 hover:text-gray-300">
+              <Link href="/policy/PrivacyPolicy" className="transition duration-300 hover:text-gray-300">
               Privacy Policy
-              </a>
+              </Link>
             </li>
             <li>
               <Link href="/policy/Cancellation&RefundPolicy" className="transition duration-300 hover:text-gray-300">
