@@ -40,7 +40,7 @@ const Home: React.FC = () => {
             <div>
               {/* <ParticleSliderComponent logoSrc='/ds.png'/> */}
               <div className='flex items-center justify-center w-auto mb-8 text-center'>
-              <ParticleImage imageSrc="/ds.png"/>
+              <ParticleImage imageSrc="/kp.png"/>
               </div>
               <div>
               <p className='font-bold text-[18px] -mt-10'>
