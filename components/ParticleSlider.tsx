@@ -4,7 +4,7 @@ interface ParticleSliderProps {
   logoSrc: string;
 }
 
-const ParticleSliderComponent: React.FC<ParticleSliderProps> = ({ logoSrc }) => {
+const ParticleSlider3: React.FC<ParticleSliderProps> = ({ logoSrc }) => {
   const logoRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
@@ -54,4 +54,4 @@ const ParticleSliderComponent: React.FC<ParticleSliderProps> = ({ logoSrc }) => 
   );
 };
 
-export default ParticleSliderComponent;
+export default ParticleSlider3;

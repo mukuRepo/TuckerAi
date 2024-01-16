@@ -13,6 +13,7 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 import Link from 'next/link';
 import ParticleComponent from '@/components/ParticleComponent';
 import ParticleSliderComponent from '@/components/ParticleSlider';
+import ParticleImage from '@/components/LogoParticleEffect';
 
 const Home: React.FC = () => {
   return (
@@ -37,7 +38,10 @@ const Home: React.FC = () => {
           </div>
           <div className='flex flex-col items-center justify-center w-full h-auto sm:w-9/12'>
             <div>
-              <ParticleSliderComponent logoSrc='/ds.png'/>
+              {/* <ParticleSliderComponent logoSrc='/ds.png'/> */}
+              <div className='flex items-center justify-center w-auto mb-8 text-center'>
+              <ParticleImage imageSrc="/ds.png"/>
+              </div>
               <div>
               <p className='font-bold text-[18px] -mt-10'>
               Let's Bring Your Ideas to Reality

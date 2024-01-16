@@ -1,4 +1,5 @@
 // pages/about.tsx
+import ParticleImage from '@/components/LogoParticleEffect';
 import ParticleComponent from '@/components/ParticleComponent';
 import ParticleSliderComponent from '@/components/ParticleSlider';
 import Head from 'next/head';
@@ -35,7 +36,10 @@ const About: React.FC = () => {
         </div>
         <div className='flex flex-col justify-center w-full h-auto mt-4 text-center sm:w-7/12'>
 
-          <ParticleSliderComponent logoSrc='/kp.png'/>
+          {/* <ParticleSliderComponent logoSrc='/kp.png'/> */}
+          <div className='flex justify-center w-full mb-8 text-center '>
+              <ParticleImage imageSrc="/ds.png"/>
+              </div>
           <p className='font-bold text-[18px] -mt-12'>
           Let's Build the future together
           </p>
